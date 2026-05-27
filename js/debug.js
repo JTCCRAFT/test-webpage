@@ -14,3 +14,4 @@ const logger = {
 };
 
 export { logger }
+logger.info('Exported logger!')
