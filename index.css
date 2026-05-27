@@ -2,6 +2,28 @@
     font-family: Ubuntu;
     font-size: 14px;
 }
+
+:root {
+    --backgroundColor: #dde6eb;
+    --backgroundBorderColor: #c1cfd8;
+    --menuTextColor: #000000;
+    --backgroundBrightness: 0.85;
+    --backgroundLink: url(images/fordf150-1.png)
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.15);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.3);
+}
 #button1 {
     margin: 0;
     margin-top: 0px;
